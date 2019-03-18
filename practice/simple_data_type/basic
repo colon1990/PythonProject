@@ -1,0 +1,104 @@
+# x = 3
+# y = x
+# y = 4
+# print(x)
+# print (y)
+
+# i = -297L
+# print (i)
+
+# def main():
+#     print ("Hello world!")
+# if __name__ == '__main__':
+#     main()
+#
+# print("Dang Hong Hai")
+
+
+# print("dhonghai" + 90)
+
+# a = "dhonghai"
+# b = 99
+# print( a+ str(b))
+
+# print(float("99"))
+
+# for i in range(0, 20):    print(i)
+
+# a = 10 + 20
+# print("a = " + str(a));
+#
+# b = a - 15
+# print("b = " + str(b));
+#
+# c = a * 30
+# print("c = " + str(c));
+#
+# d = a / 3
+# print("d = " + str(d));
+#
+# e = a % 25
+# print("e = " + str(e));
+#
+# f = a ** 2
+# print("f = " + str(f));
+#
+# g = a // 27.3
+# print("g = " + str(g));
+#
+# h = a == b
+# print("h = " + str(h));
+#
+# i = 30
+# j = i != a
+# print("j = " + str(j));
+#
+# k = (a > b)
+# print("k = " + str(k));
+#
+# l = (a < d)
+# print("l = " + str(l));
+#
+# m = 78;
+# m += a
+# print("m = " + str(m));
+#
+# n = 12
+# n -=a
+# print("n = " + str(n));
+
+# o = True
+# p = True
+# q = False
+# print( o and p)
+# print( o and q)
+#
+# print( o or p)
+# print( o or q)
+#
+# print(not(o and p))
+
+# shift bit 2 left or right
+# a = 100
+# print(a << 2)
+# print(a >> 2)
+
+# will return value [-(b+1)]
+# b = 12
+# print(~b)
+
+
+# 5 = 0101, 12 = 1100
+c = 5
+d = 12
+# copy bit to the result if it exist in both operands, T and F = F
+print(c & d)
+
+# copy bit if it exist in both operands, T or F = T
+print(c | d)
+
+# e = 1000, f = 10001
+e = 8
+f = 9
+# copy bit if it set in one operands but not both, if both 1 or 0  > value = 0
+print(e ^ f)
